@@ -1,0 +1,58 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../static/styles/navbar.css">
+    <link rel="stylesheet" href="../static/styles/tabs.css">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+
+</head>
+
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="home.html" id="brand"><i class="fas fa-book"></i> Study Connect</a>
+        <a href="profile.html">Profile</a>
+        <a href="courses.html">Courses</a>
+        <a href="calendar.html">Calendar</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    <br>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    
+    <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'class1')">COS126</button>
+        <button class="tablinks" onclick="openCity(event, 'class2')">MAT202</button>
+        <button class="tablinks" onclick="openCity(event, 'class3')">KOR103</button>
+        <button class="tablinks" onclick="openCity(event, 'class4')">WRI132</button>
+    </div>
+    
+    <div id="class1" class="tabcontent">
+        <h3>COS126</h3>
+        <p> An introduction to computer science in the context of scientific, engineering, and commercial applications. The course will teach basic principles and practical issues, and will prepare students to use computers effectively for applications in computer science, physics, biology, chemistry, engineering, and other disciplines. Topics include: hardware and software systems; programming in Java; algorithms and data structures; fundamental principles of computation; and scientific computing, including simulation, optimization, and data analysis. No prior programming experience required. Video lectures, labs, precepts. </p>
+        
+        <a href="form.html"><button type="button" id="study" class="btn btn-primary">Find a study group</button></a>
+    </div>
+
+    <div id="class2" class="tabcontent">
+        <h3>MAT202</h3>
+        </p> Companion course to MAT 201. Matrices, linear transformations, linear independence and dimension, bases and coordinates, determinants, orthogonal projection, least squares, eigenvectors and their applications to quadratic forms and dynamical systems.</p>
+        <a href="form.html"><button type="button" id="study" class="btn btn-primary">Find a study group</button></a>
+    </div>
+
+    <div id="class3" class="tabcontent">
+        <h3>KOR103</h3>
+        <p>The first part of Intensive Korean is designed for heritage students who have already had considerable amount of exposure to the Korean language and culture but have not received any formal instruction before their arriving at Princeton. It covers the Elementary Korean material focusing on vocabulary building, grammar, reading and writing.</p>
+        <a href="form.html"><button type="button" id="study" class="btn btn-primary">Find a study group</button></a>
+    </div>
+
+    <div id="class4" class="tabcontent">
+        <h3>AMS101</h3>
+        <p> An introduction to the interdisciplinary field of American Studies. Employing history, theater, law, and politics, and focusing on such critical concepts as "community," "xenophobia," and "race," we will consider the structures of knowing and feeling that have formed America since its founding. Throughout the course, we will pay special attention to the ways that culture and difference have shaped, and continue to shape, the signature ideas and debates that have made the nation what it is today. In Fall 2020, we will be particularly interested in the political, social, and cultural questions that inform the current U.S. presidential election.</p>
+        <a href="form.html"><button type="button" id="study" class="btn btn-primary">Find a study group</button></a>
+    </div>
+    <script src="../static/scripts/navbar.js"></script>
+    <script src="../static/scripts/tabs.js"></script>
+</body>
+
+</html>

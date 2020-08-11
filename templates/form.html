@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link
+      rel="stylesheet"
+      href="../static/styles/form.css"
+      ,
+      href="https://fonts.googleapis.com/css?family=Shadows+Into+Light|Source+Code+Pro&display=swap"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <br/>
+      <header>
+        <h1>Select the numerical value that best represents your study preferences</h1>
+      </header>
+      <br/>
+      <div class="option-container"></div>
+      What days are you most available?  
+      <div class="questions" id="Days">
+          <div class="number" onclick="button(this)">M</div>
+          <div class="number" onclick="button(this)">Tu</div>
+          <div class="number" onclick="button(this)">W</div>
+          <div class="number" onclick="button(this)">Th</div>
+          <div class="number" onclick="button(this)">F</div>
+          <div class="number" onclick="button(this)">Sa</div>
+          <div class="number" onclick="button(this)">Su</div>
+        </div>
+        What is your ideal study group size?
+        <div class="questions" id="Size">
+          <div class="number" onclick="button(this)">2</div>
+          <div class="number" onclick="button(this)">3</div>
+          <div class="number" onclick="button(this)">4</div>
+          <div class="number" onclick="button(this)">5</div>
+          <div class="number" onclick="button(this)">6</div>
+          <div class="number" onclick="button(this)">7+</div>
+        </div>
+        How comfortable are you with the material?
+        <div class="questions" id="Comfort">
+          <div class="number" onclick="button(this)">1</div>
+          <div class="number" onclick="button(this)">2</div>
+          <div class="number" onclick="button(this)">3</div>
+          <div class="number" onclick="button(this)">4</div>
+          <div class="number" onclick="button(this)">5</div>
+          <div class="number" onclick="button(this)">6</div>
+          <div class="number" onclick="button(this)">7</div>
+          <div class="number" onclick="button(this)">8</div>
+        </div>
+        How focused are you when studying?
+        <div class="questions" id="Focus">
+          <div class="number" onclick="button(this)">1</div>
+          <div class="number" onclick="button(this)">2</div>
+          <div class="number" onclick="button(this)">3</div>
+          <div class="number" onclick="button(this)">4</div>
+          <div class="number" onclick="button(this)">5</div>
+          <div class="number" onclick="button(this)">6</div>
+          <div class="number" onclick="button(this)">7</div>
+          <div class="number" onclick="button(this)">8</div>
+        </div>
+        How open are you to explaining material?
+        <div class="questions" id="Explain">
+          <div class="number" onclick="button(this)">1</div>
+          <div class="number" onclick="button(this)">2</div>
+          <div class="number" onclick="button(this)">3</div>
+          <div class="number" onclick="button(this)">4</div>
+          <div class="number" onclick="button(this)">5</div>
+          <div class="number" onclick="button(this)">6</div>
+          <div class="number" onclick="button(this)">7</div>
+          <div class="number" onclick="button(this)">8</div>
+        </div>
+      </div>
+    </div>
+    <script src="../static/scripts/form.js"></script>
+  </body>
+</html>
